@@ -14,7 +14,7 @@ sleep, %cal%
 send ^+{Home}
 sleep, %cal%
 MouseGetPos, xpos, ypos
-Click right 35 20
+Click right 75 20
 sleep %cal%
 sendInput v
 sleep %cal%
