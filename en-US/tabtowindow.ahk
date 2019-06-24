@@ -11,6 +11,8 @@ send +{Tab}
 sleep, %cal%
 send +{Tab}
 sleep, %cal%
+send +{Tab}
+sleep, %cal%
 send ^+{Home}
 sleep, %cal%
 MouseGetPos, xpos, ypos
