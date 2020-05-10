@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #IfWinActive, ahk_class MozillaWindowClass
 ^!n::
 cal := 70 ; time in ms between the actions. Has to be tweaked according to system performance.
-send {F6} 
+sendInput ^l
 sleep, %cal%
 send +{Tab}
 sleep, %cal%
